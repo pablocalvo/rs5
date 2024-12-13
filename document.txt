@@ -1,0 +1,31 @@
+1. Install Boost Libraries
+	sudo apt-get install libboost-all-dev
+	
+2. Compile the Code
+	g++ -std=c++17 -o server server.cpp -lboost_system -lpthread
+	
+3. Run the Server
+	./server 8080 0.0.0.0
+
+4. For a GET request:
+	curl "http://localhost:8080/path?name=Spain"
+
+5. For a POST request:
+	curl -X POST --header 'Content-Type: application/json' -d '{"Country":"Spain","Name":"Machine Learning Engineer","max_wage":"7500","min_wage":"1200","skills":["AWS","Azure","Kubernetes"]}' http://localhost:8080
+	
+	
+	
+	
+	
+	/*----------------------------------------------------------------------------------*/
+	https://www.jacobsoft.com.mx/es_mx/linear-discriminant-analysis/
+	
+	https://www.youtube.com/watch?v=bdU4XBYkvmA
+	
+	/*----------------------------------------------------------------------------------*/
+	
+	Suelto esto esto y esto
+	Me abro a recibir ....
+	y perdono todo
+	
+	
